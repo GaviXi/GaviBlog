@@ -4,7 +4,7 @@ import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
   title: "Gavi",
-  base: "/Gavi_blog/",
+  base: "/GaviBlog/",
   description: "get what you need",
   theme: recoTheme({
     // autoSetBlogCategories: true,
