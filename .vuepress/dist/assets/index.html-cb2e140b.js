@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-7a535114","path":"/categories/Androidkaifa/1/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{a as data};

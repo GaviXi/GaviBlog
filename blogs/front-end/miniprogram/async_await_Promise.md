@@ -1,5 +1,5 @@
 ---
-title: async/await以及云函数的综合运用
+title: async/await & Promise的再认识
 date: 2023/05/12
 categories:
   - 微信小程序

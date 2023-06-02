@@ -1,10 +1,10 @@
 ---
-title: button按钮设置宽度无效
+title: 微信小程序路由传参
 date: 2022/04/07
 categories:
-  - JavaScript
+  - 微信小程序
 tags:
-  - JavaScript
+  - 微信小程序
 ---
 
 # 微信小程序路由传参
