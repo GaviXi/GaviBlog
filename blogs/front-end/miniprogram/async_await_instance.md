@@ -1,5 +1,5 @@
 ---
-title: async和await以及云函数的综合运用
+title: async/await以及云函数的综合运用
 date: 2023/05/08
 categories:
   - 微信小程序
@@ -7,7 +7,8 @@ tags:
   - 微信小程序
   - JavaScript
 ---
-# async和await以及云函数的综合运用
+
+# async/await以及云函数的综合运用
 
 前言：本篇博客主要记录了我在开发项目时完成的一个涉及async和await以及云函数的需求
 

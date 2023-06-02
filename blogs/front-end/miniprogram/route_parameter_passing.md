@@ -1,3 +1,12 @@
+---
+title: button按钮设置宽度无效
+date: 2022/04/07
+categories:
+  - JavaScript
+tags:
+  - JavaScript
+---
+
 # 微信小程序路由传参
 
 在微信小程序中，可以通过路由传参将数据传递给目标页面。以下是一种常见的方式：

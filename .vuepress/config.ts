@@ -31,81 +31,90 @@ export default defineUserConfig({
       //     children: ["api", "plugin"],
       //   },
       // ],
-      '/docs/firstline/': [
+      "/docs/firstline/": [
         {
-          title: '第一行代码第2版',  //组名
-          children: ['chapter2','chapter3','chapter4','chapter5','chapter6','chapter7','chapter8','chapter9','chapter10','chapter11','chapter12','chapter13','chapter14']
+          title: "第一行代码第2版", //组名
+          children: ["chapter2","chapter3","chapter4","chapter5","chapter6","chapter7","chapter8","chapter9","chapter10","chapter11","chapter12","chapter13","chapter14"],
         },
       ],
-      '/blogs/front-end/css/': [
+      "/blogs/front-end/css/": [
         {
-          text: 'CSS',  //组名
-          children: ['center','el-icon','unset','rightAlignment']
+          text: "CSS", //组名
+          children: ["center", "el-icon", "unset", "rightAlignment"],
         },
       ],
-      '/blogs/front-end/miniprogram/': [
+      "/blogs/front-end/js/": [
         {
-          text: '微信小程序',  //组名
-          children: ['setData']
+          text: "JS", //组名
+          children: ["return_in_tryCatch"],
         },
       ],
-      '/blogs/front-end/vue/': [
+      "/blogs/front-end/miniprogram/": [
         {
-          text: 'Vue',  //组名
-          children: ['v-deep']
+          text: "微信小程序", //组名
+          children: ["setData","async_await_instance","async_await_Promise","button_style","route_parameter_passing"],
         },
       ],
-      '/blogs/Android/': [
+      "/blogs/front-end/vue/": [
         {
-          text: 'Android开发',  //组名
-          children: ['connect_timed_out','ListView_Adapter','startActivityForResult','compress']
+          text: "Vue", //组名
+          children: ["v-deep"],
         },
       ],
-      '/blogs/Flutter/': [
+      "/blogs/python/": [
         {
-          text: 'Flutter开发',  //组名
-          children: ['default_List_constructor','Optional_parameter']
+          text: "python", //组名
+          children: ["deepCopy"],
+        },
+      ],
+      "/blogs/Android/": [
+        {
+          text: "Android开发", //组名
+          children: [
+            "connect_timed_out","ListView_Adapter","startActivityForResult","compress"],
+        },
+      ],
+      "/blogs/Flutter/": [
+        {
+          text: "Flutter开发", //组名
+          children: ["default_List_constructor", "Optional_parameter"],
         },
       ],
     },
     navbar: [
-      { text: "Home", link: "/", icon: 'Home' },
+      { text: "Home", link: "/", icon: "Home" },
       {
-        text: "前端",
+        text: "大前端",
         children: [
           {
-            text: 'vue',
-            link: '/blogs/front-end/vue/'
+            text: "vue", link: "/blogs/front-end/vue/",
           },
           {
-            text: '微信小程序',
-            link: '/blogs/front-end/miniprogram/'
+            text: "微信小程序", link: "/blogs/front-end/miniprogram/",
           },
           {
-            text: 'JS',
-            link: '/blogs/front-end/js/'
+            text: "JS", link: "/blogs/front-end/js/",
           },
           {
-            text: 'CSS',
-            link: '/blogs/front-end/css/'
+            text: "CSS", link: "/blogs/front-end/css/",
           },
-          {
-            text: 'Bug',
-            link: '/blogs/front-end/bug/'
-          }
-        ],
-        icon: "Blog"
-      },
-
-      // { text: "Categories", link: "/categories/reco/1/" },
-      // { text: "Tags", link: "/tags/tag1/1/" },
-      {
-        text: "客户端",
-        children: [
           { text: "Android", link: "/blogs/Android/" },
           { text: "Flutter", link: "/blogs/Flutter/" },
         ],
-        icon: "Catalog"
+        icon: "Blog",
+      },
+      // {
+      //   text: "客户端",
+      //   children: [
+      //     { text: "Android", link: "/blogs/Android/" },
+      //     { text: "Flutter", link: "/blogs/Flutter/" },
+      //   ],
+      //   icon: "Catalog"
+      // },
+      {
+        text: "其他",
+        children: [{ text: "Python", link: "/blogs/python/" }],
+        icon: "Catalog",
       },
       {
         text: "Docs",
@@ -113,7 +122,7 @@ export default defineUserConfig({
           { text: "第一行代码", link: "/docs/firstline/chapter2" },
           { text: "Flutter", link: "/docs/Flutter-APP/chapter1_exercise" },
         ],
-        icon: "Document"
+        icon: "Document",
       },
     ],
     // bulletin: {

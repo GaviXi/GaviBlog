@@ -1,3 +1,13 @@
+---
+title: async/await以及云函数的综合运用
+date: 2023/05/12
+categories:
+  - 微信小程序
+tags:
+  - 微信小程序
+  - JavaScript
+---
+
 # async/await & Promise的再认识
 
 ## 背景
@@ -66,4 +76,4 @@ async doPayment(params) {
 
 这样我们就能做到等待wx.requestPayment的回调函数执行完后再执行后续代码，如图所示：
 
-![image-20230517001148702](./asyncawait & Promise.assets/1.png)
+![image-20230517001148702](./async_await_Promise.assets/1.png)

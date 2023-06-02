@@ -1,3 +1,12 @@
+---
+title: button按钮设置宽度无效
+date: 2023/05/11
+categories:
+  - 微信小程序
+tags:
+  - 微信小程序
+---
+
 # button按钮设置宽度无效
 
 ## 背景：
