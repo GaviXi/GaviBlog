@@ -37,6 +37,12 @@ export default defineUserConfig({
           children: ["chapter2","chapter3","chapter4","chapter5","chapter6","chapter7","chapter8","chapter9","chapter10","chapter11","chapter12","chapter13","chapter14"],
         },
       ],
+      "/docs/Flutter-APP/": [
+        {
+          title: "Flutter入门", //组名
+          children: ["chapter1_exercise","chapter2_exercise","chapter3_exercise"],
+        },
+      ],
       "/blogs/front-end/css/": [
         {
           text: "CSS", //组名
@@ -52,7 +58,8 @@ export default defineUserConfig({
       "/blogs/front-end/miniprogram/": [
         {
           text: "微信小程序", //组名
-          children: ["setData","async_await_instance","async_await_Promise","button_style","route_parameter_passing"],
+          children: ["setData","async_await_instance","async_await_Promise","button_style","route_parameter_passing","login_bestPractise"
+                      ,"lock_and_transaction","login_bestPractise","wait_appJs"],
         },
       ],
       "/blogs/front-end/vue/": [

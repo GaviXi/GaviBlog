@@ -12,7 +12,7 @@ bannerBrand:
   description: Gavi的分享站
   tagline: 本站主要包含了前端、客户端开发的一些技术文章，同时还有我进入大学以来的一些学习上和生活上的分享。
   buttons:
-    - { text: Enter, link: '/docs/firstline/chapter2' }
+    - { text: Enter, link: '/GaviBlog/docs/firstline/chapter2' }
     # - { text: Default Style, link: '/docs/theme-reco/api', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
