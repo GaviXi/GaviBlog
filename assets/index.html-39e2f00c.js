@@ -1,0 +1,1 @@
+import{_ as t,p as s,q as a,s as e,R as c}from"./framework-e1bed10d.js";const n={},r=e("h2",{id:"js",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#js","aria-hidden":"true"},"#"),c(" JS")],-1),o=[r];function _(d,i){return s(),a("div",null,o)}const l=t(n,[["render",_],["__file","index.html.vue"]]);export{l as default};

@@ -1,0 +1,25 @@
+import{_ as s,p as n,q as a,Y as t}from"./framework-e1bed10d.js";const e="/GaviBlog/assets/unset-1-f4c37dd6.png",p={},c=t(`<h1 id="使某个css属性失效-property-unset" tabindex="-1"><a class="header-anchor" href="#使某个css属性失效-property-unset" aria-hidden="true">#</a> 使某个css属性失效 property:unset</h1><p>在我们编写CSS文件的时候，一个元素可能被多次设置了css样式，一般来说，最后一次的css样式会覆盖之前设置的相同的css属性，同时会继承之前其他的css属性。如果想该元素不继承之前设置的css属性，则可设置继承的属性值为unset。（特别是在引入了多个css文件的情况下）</p><p>如下面代码中的left属性，此时我们将继承的left属性设置为<strong>unset</strong>，同时设置right属性来改变元素的水平位置。</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code> <span class="token selector">.swiper-pagination-fraction</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">.swiper-pagination-fraction</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> unset<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> unset<span class="token punctuation">;</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> 18.75%<span class="token punctuation">;</span>
+    <span class="token property">bottom</span><span class="token punctuation">:</span> 7.5%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此外，unset还有另外一种用法。如果这个属性本来有从父级继承的值（这个属性默认可以继承，且父级有定义），则<strong>将该属性重新设置为继承的值</strong>。</p><p>示例：</p><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>bar<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This text is green (default inherited value).<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">.bar</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ 
+<span class="token selector">p</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.bar p</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> unset<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如下图所见，p标签中的文本仍然继承了父级的颜色属性。</p><p><img src="`+e+'" alt="unset-1"></p>',11),i=[c];function l(o,u){return n(),a("div",null,i)}const d=s(p,[["render",l],["__file","unset.html.vue"]]);export{d as default};
